@@ -1,0 +1,39 @@
+/*Font Awesome Free Icon*/
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(220, 20, 60);
+    height: 125px;
+}
+
+.foto-container img {
+    width: 12%;
+    border-radius: 50%;
+}
+
+.navbar-container ul{
+    display: flex;
+}
+
+.navbar-container ul li{
+    list-style: none;
+    padding-right: 50px;
+}
+
+.navbar-container ul li a i{
+    text-decoration: none;
+    color:rgb(144, 238, 144);
+}
+
+.navbar-container ul li a:hover{
+    border-top: 5px solid #806235;
+    
+}
